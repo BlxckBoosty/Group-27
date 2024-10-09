@@ -1,7 +1,6 @@
 \documentclass{article}
 
 \usepackage{graphicx} % Required for inserting images
-\renewcommand{\figurename}{Abbildung}
 \usepackage{amsmath}
 \usepackage{hyperref}
 
@@ -75,5 +74,15 @@ Grafiken können mit der \texttt{figure}-Umgebung beschriftet und referenziert w
 \end{figure}
 
 Abbildung \ref{fig:dax} zeigt den Verlauf des Deutschen Aktienindex (DAX). Er wurde mithilfe eines Hidden Markov Models (HHM) dekodiert.
+
+\section{Absätze}
+
+Wir können den ersten Absatz beginnen und dann zweimal die ``Enter''-Taste drücken, um den zweiten zu starten.
+
+Diese Zeile beginnt einen zweiten Absatz.
+
+Ich werde den dritten Absatz beginnen und dann einen \\ manuellen Zeilenumbruch hinzufügen, wodurch dieser Text auf einer neuen Zeile beginnt, aber Teil desselben Absatzes bleibt.
+
+Es wird empfohlen, mehrere \verb|\\| nicht zu verwenden, um ``größere Abstände'' zwischen Absätzen zu simulieren. Die empfohlene Methode ist, weiterhin leere Zeilen für neue Absätze zu verwenden, und das Paket \texttt{parskip} in der Präambel zu laden.
 
 \end{document}
