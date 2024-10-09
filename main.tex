@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage{graphicx} % Required for inserting images
+\renewcommand{\figurename}{Abbildung}
 \usepackage{amsmath}
 \usepackage{hyperref}
 
@@ -48,7 +49,7 @@ Die jährlichen Benzinkosten ergeben sich aus $$ C = P \cdot L \cdot K, $$ wobei
 
 Grafiken können mithilfe der \texttt{figure}-Umgebung beschriftet und referenziert werden:
 
-\begin{figure}[ht] % oder t, falls Grafiken oben ("top") erscheinen sollen
+\begin{figure}[ht] % oder t, falls Grafiken immer oben ("top") erscheinen sollen
     \centering
     % benötigt \usepackage{graphicx} in der Präambel
     \includegraphics[width = \textwidth]{time_series.png}
