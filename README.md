@@ -15,7 +15,7 @@ author: "Lennart Oelschläger"
 3. [Grafiken einbinden](https://github.com/loelschlaeger/einfach_latex/commit/13729e732aa6ce0452926dcde77ea77e4e2470f6?diff=split#diff-f67098301b6788c19af2853a0e5ad776fda05572b1b1224df46c42d1ad323cbb)
 4. [Titelseite](https://github.com/loelschlaeger/einfach_latex/commit/e661218ed799e975909c0dbfd8406f9ac461c206?diff=split#diff-f67098301b6788c19af2853a0e5ad776fda05572b1b1224df46c42d1ad323cbbL52)
 5. [Absätze](https://github.com/loelschlaeger/einfach_latex/commit/cabdb63e6bbb99375aa2c131883a5941b927133e?diff=split)
-6. [Tabellen]()
+6. [Tabellen](https://github.com/loelschlaeger/einfach_latex/commit/da139c8d94c67587edd6518aae9e004c48d7b5aa?diff=split)
 7. [Literaturverzeichnis]()
 8. Zusammenarbeit
 9. Versionskontrolle
