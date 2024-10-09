@@ -9,6 +9,8 @@
 \usepackage[ngerman]{babel} 
 \usepackage[T1]{fontenc}   
 
+\usepackage{url} % benötigt für URL in Literaturverzeichnis
+
 \title{Mein erstes LaTeX Dokument}
 \author{Lennart Oelschläger}
 \date{15.10.2024}
@@ -102,5 +104,12 @@ Tabellen können ähnlich wie Bilder beschriftet und referenziert werden, das wi
     \caption{Eine mehr oder weniger informative Tabelle}
     \label{table:data}
 \end{table}
+
+\section{Zitate einbinden}
+
+Ein klassisches Lehrbuch in der Ökonometrie ist \cite{wooldridge}. SQL Befehle können auch online ausprobiert werden \cite{sqllite}.
+
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}
