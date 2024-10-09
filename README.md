@@ -19,8 +19,11 @@ author: "Lennart Oelschläger"
 7. [Literaturverzeichnis]()
 8. Zusammenarbeit
 9. Versionskontrolle
+10. Unbegrenzte Möglichkeiten
 
 ## Quellen
 
 - https://de.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX
 - https://www.youtube.com/watch?v=Jp0lPj2-DQA&list=PLHXZ9OQGMqxcWWkx2DMnQmj5os2X5ZR73
+- https://github.com/PanCakeConnaisseur/latex-briefvorlage-din-5008 (Briefvorlage)
+- https://www.overleaf.com/learn/latex/Beamer (Beamer Vorlage)
