@@ -1,14 +1,30 @@
 \documentclass{article}
+
 \usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{hyperref}
 
 \title{Mein erstes LaTeX Dokument}
 \author{Lennart Oelschläger}
-\date{October 2024}
+\date{15.10.2024}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\section{Mathematische Formeln}
+
+Formeln können so $f(x) = x^2$ eingegeben werden. Umfangreichere Formeln können wir absetzen:
+
+$$ \exp(x) =  \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n $$
+
+Wir können solche Formeln auch nummerieren ...
+
+\begin{equation}
+    \label{eq:exponential_function}
+    \exp(x) = \sum_{n = 0}^\infty \frac{x^n}{n!}
+\end{equation}
+
+... und später diese Formel mit \eqref{eq:exponential_function} referenzieren.
 
 \end{document}
