@@ -11,7 +11,7 @@ author: "Lennart Oelschläger"
 
 0. [Ausgangspunkt](https://github.com/loelschlaeger/einfach_latex/commit/befefc3a4c145b8c3cc539fe0bca58bdeb2db503?diff=split)
 1. [Mathematische Formeln](https://github.com/loelschlaeger/einfach_latex/commit/8bf5c606a2116aa9351fb947cd608e891a279134?diff=split)
-2. [Auflistungen]()
+2. [Auflistungen](https://github.com/loelschlaeger/einfach_latex/commit/a364a8236f840df7786bd6f11ef3b9b23a5d3bde?diff=split)
 3. [Grafiken einbinden]()
 4. [Titelseite]()
 5. [Absätze]()
