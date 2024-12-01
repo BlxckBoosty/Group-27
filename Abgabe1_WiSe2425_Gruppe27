@@ -20,7 +20,7 @@
 
 \maketitle
 
-\tableofcontents{Inhaltsverzeichnis}
+\tableofcontents
 
 \thispagestyle{empty}
 
@@ -118,6 +118,8 @@ Der ZGS wird in vielen Bereichen der Statistik und der Wahrscheinlichkeitstheori
 %===Achte Seite===
 
 \newpage
+
+
 \bibliographystyle{plain}
 \bibliography{reference}
 
