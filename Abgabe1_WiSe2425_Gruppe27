@@ -1,4 +1,5 @@
 %===Packages und mehr===
+
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 
@@ -24,6 +25,7 @@
 \thispagestyle{empty}
 
 %===Zweite Seite===
+
 \newpage
 \section{Der zentrale Grenzwertsatz}
 
@@ -35,7 +37,6 @@
 
 Sei $X_1,X_2,...,X_n$ eine Folge von i.i.d. ZV mit dem Erwartungswert $\mu = \mathbb{E}(X_i)$ und der Varianz $\sigma^2 = Var(X_i)$, wobei $0 < \sigma^2 < \infty$ gelte. Dann konvergiert die standardisierte Summe $Z_n$ dieser ZV für $n \to \infty$ in Verteilung gegen eine Standardnormalverteilung:\footnote[1]{Der zentrale Grenzwertsatz hat verschiedene Verallgemeinerungen. Eine davon ist der \textbf{Lindeberg-Feller-Zentrale-Grenzwertsatz} [\cite{klenke2013}, Seite 328], der schwächere Bedingungen an die Unabhängigkeit und die identische Verteilung der ZV stellt.}
 
-%\hyperref[fn: Fußnote]{\footnotemark[1]}
 
 
 \begin{equation}
@@ -54,6 +55,7 @@ Das bedeutet, dass für große $n$ die Summe der ZV näherungsweise normalvertei
 
 \subsection{Erklärung der Standardisierung}
 Um die Summe der ZV in einer Standardnormalverteilung zu transformieren, subtrahiert man den Erwartungswert $n\mu$ und teilt durch die Standardabweichung $\sigma\sqrt{n}$. Dies führt zu der obigen Formel \eqref{eq:Konvergenz der standardisierten Summe Z_n}. Die Darstellung \eqref{eq:Normalverteilung} ist für $n \to \infty$ nicht wohldefiniert.
+
 
 %===Dritte Seite===
 
@@ -75,13 +77,14 @@ Der ZGS wird in vielen Bereichen der Statistik und der Wahrscheinlichkeitstheori
 
 \item Beispiel: Qualitätskontrolle in der Produktion, in diesem Beispiel die Automobilbranche \\ ZGW: Die Qualität eines einzigen Autos variiert zufällig, aber trotzdem nähert sich der Mittelwert einer sehr großen Stichprobe der Standardnormalverteilung an.
 
-
 \end{itemize}
 
+\subsection{Link zum Repository}
 
 
 
 %===Vierte bis siebte Seite===
+
 \newpage
 \section{Bearbeitung zur Aufgabe 1}
 
@@ -121,4 +124,6 @@ Der ZGS wird in vielen Bereichen der Statistik und der Wahrscheinlichkeitstheori
 
 
 \end{document}
+
+
 
